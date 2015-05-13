@@ -37,3 +37,8 @@ def install_vision():
     local('sudo yum install pkgconfig')
     local('sudo yum install numpy')
     local('sudo ffmpeg')
+
+def install_all():
+    install_vim()
+    install_fonts():
+    install_zsh():
